@@ -1,3 +1,4 @@
+/******* Base Style *********/
 * {
 	box-sizing: border-box;
 	font-family: Arial, Helvetica, Sans-serif;
@@ -18,27 +19,27 @@ h1 {
 #box1 {
 	border: 1px solid;
 	background-color: #d3d3d3;
-	width: 33.3%;
+	width: 30%;
 	float: left;	
-	margin-right: auto;
-	margin-left: auto;
+	margin-right: 20px;
+	margin-left: 30px;
 }
 
 #box2 {
 	border: 1px solid;
-	width: 33.3%;
+	width: 30%;
 	background-color: #d3d3d3;
 	float: left;
-	margin-right: auto;
+	margin-right: 20px;
  	margin-left: auto;
 }
 
 #box3 {
 	border: 1px solid;
-	width: 33.3%;
+	width: 30%;
 	float: left;
 	background-color: #d3d3d3;
-	margin-right: auto;
+	margin-right: 20px;
   	margin-left: auto;
 }
 
@@ -50,8 +51,9 @@ h1 {
 	text-align: center;
 	margin: 0px;
 	margin-bottom: 15px;
+	margin-left: auto;
 	margin-right: auto;
-  	margin-left: auto;  
+	 
 }
 
 #subh2 {
@@ -62,8 +64,8 @@ h1 {
 	text-align: center;
 	margin: 0px;
 	margin-bottom: 15px;
+	margin-left: auto;
 	margin-right: auto;
-  	margin-left: auto;
 }
 
 #subh3 {
@@ -74,8 +76,8 @@ h1 {
 	text-align: center;
 	margin: 0px;
 	margin-bottom: 15px;
+	margin-left: auto;
 	margin-right: auto;
- 	margin-left: auto;
 }
 
 h3 {
@@ -83,7 +85,6 @@ h3 {
 }
 
 p {
-	clear: right;
 	text-align: center;
 	padding: 10px;
 }
@@ -103,10 +104,10 @@ p {
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   #box1 #box2 #box3{
-    width: 50%;
+    width: 25%;
   }
 #subh1 #subh2 #subh3 {
-  width: 20%
-  height:8%;	
+  width: 10%
+  height:5%;	
   }
 }
